@@ -1,0 +1,40 @@
+.navbar{
+	display: flex;
+	border: 1px solid black;
+		}
+body {
+	display: flex;
+	border: 1px solid black;
+}
+	
+.images{
+	flex: 4;
+}
+
+.content{
+	display: flex;
+	
+}
+.logo {
+	flex: 2;
+}	
+.home {
+	flex: 4;
+}
+.maincontent {
+	flex-wrap: wrap;
+	display: flex;
+	
+}
+.right-nav {
+	flex:1;
+	border: solid 1px black;
+}
+.boxes {
+	display: flex;
+	
+
+}
+.images { 
+	flex: 1;
+ }
