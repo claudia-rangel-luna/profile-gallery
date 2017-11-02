@@ -12,6 +12,7 @@ body {
 	border: 1px solid grey;
 	height: 150px;
 	flex-direction: row;
+	background-color: beige;
 }
 .link {
 	display: flex;
@@ -20,8 +21,11 @@ body {
 	flex: 1;
 	flex-flow: wrap;
 	justify-content: flex-end;
-	
+	font-weight: bolder;
 }	
+a:hover {
+	color: darkorange;
+}
 	
 .box {
 	display: flex;
@@ -30,7 +34,7 @@ body {
 	flex: 3;
 	justify-content: space-around;
 	height:500px;
-	background-color: beige;
+	background-color: #b57e1d ;
 	}
 
 img {
@@ -43,7 +47,7 @@ img {
 	display: flex;
 	flex: 4;
 	border: 1px solid grey;
-
+	background-color: lightgrey;
 }
 
 a {
