@@ -1,44 +1,62 @@
 .page { 
-	width: 1000px;
+	width: 3000px;
 
  }
 
 body {
 	display: flex;
-	
-}
+	}
 	
 .navbar {
 	display: flex;
-	border: 1px solid black;
-	height: 40px;
+	border: 1px solid grey;
+	height: 150px;
 	flex-direction: row;
 }
 .link {
 	display: flex;
 }
 .home {
-	flex: 4;
+	flex: 1;
+	flex-flow: wrap;
+	justify-content: flex-end;
+	
 }	
 	
 .box {
 	display: flex;
 	flex-direction: column;
-	border: 1px solid black;
+	border: 1px solid grey;
 	flex: 3;
+	justify-content: space-around;
+	height:500px;
+	background-color: beige;
 	}
+
+img {
+	width: 150px;
+	height: 150px;
+	justify-content: flex-start;
+}	
+
 .list {
 	display: flex;
 	flex: 4;
-	border: 1px solid black;
+	border: 1px solid grey;
+
+}
+
+a {
+	text-decoration: none;
+	color: black;
+
 }
 .content {
 	display: flex;
+
 }
 .maincontent {
 	flex: 5;
-	
-	
 }
 .rightnav{
 	flex: 5;
